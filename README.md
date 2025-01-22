@@ -49,7 +49,8 @@ VitalPulse serves as a centralized platform where users can view, analyze, and i
   
 - **Front-End:**  
   - HTML, CSS, and JavaScript for a dynamic and responsive web interface.
-
+### Acknowledgements
+- Group Members and Instructors: Special thanks to the team and mentors for their guidance in this project for Software Process and Modeling.
 ### Explanation of the README Components
 
 1. **Project Title & Overview:**  
