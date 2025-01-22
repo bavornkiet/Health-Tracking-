@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mood-today</title>
+    <link rel="stylesheet" href="mood.css">
+</head>
+
+<body>
+    <section class="mood-section">
+        <div class="homebox">
+            <a href="view.html" class="home">&larr;</a>
+            <h2>How are you feeling today?</h2>
+        </div>
+
+        <div class="feeling">
+            <div class="child depressed" data-value="-2">
+                <p>😭</p>
+                <h3>Depressed</h3>
+            </div>
+            <div class="child sad" data-value="-1">
+                <p>☹️</p>
+                <h3>Sad</h3>
+            </div>
+            <div class="child neutral" data-value="0">
+                <p>😐</p>
+                <h3>Neutral</h3>
+            </div>
+            <div class="child happy" data-value="1">
+                <p>🙂</p>
+                <h3>Happy</h3>
+            </div>
+            <div class="child excited" data-value="2">
+                <p>😁</p>
+                <h3>Excited</h3>
+            </div>
+
+        </div>
+
+        <div class="send-btn">
+            <button id="btn" type="button">Send</button>
+        </div>
+    </section>
+
+    <script src="mood.js"></script>
+</body>
+
+</html>
